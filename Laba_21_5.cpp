@@ -11,7 +11,7 @@ int main()
 	SetConsoleOutputCP(1251);
 	int i;
 	string S;
-	cout << "Введите путь к файлу: ";
+	cout << "Введите полное имя файла: ";
 	getline(cin, S);
 	cout << "Имя файла: ";
 	for (i = S.find_last_of(92) + 1; i < S.find_last_of('.'); i++){
